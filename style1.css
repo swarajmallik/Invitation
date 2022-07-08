@@ -1,0 +1,66 @@
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.container1{ 
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%; 
+}
+body{
+    background: url(11557.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
+
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+    
+}
+
+.btn:hover{
+    opacity: 0.5;
+    color: purple; 
+    background: white; 
+    
+}
+
+
+.heading{
+    font-size: 40px;
+
+
+}
+
+
+.para{
+
+font-size: 30px;
+
+}
+
+
+
+@media (max-width:1200px){
+
+
+    .container1{ 
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 7%; 
+    }
+
+}
